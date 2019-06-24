@@ -2,7 +2,6 @@ import glob
 from datetime import datetime
 from dateutil.parser import parse as parse_date
 
-
 for arquivo in glob.glob('/home/thamyres/snap/filezilla/17/*.*'):
     a = open(arquivo, 'r')
     caminho_destino = 'processar.txt'
