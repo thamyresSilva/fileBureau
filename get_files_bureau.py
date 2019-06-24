@@ -11,6 +11,7 @@ for arquivo in glob.glob('/home/thamyres/snap/filezilla/17/*.*'):
     
     lines = a.readlines()
     total_lines = len(lines)
+    
     for line_number, lines in enumerate(lines):
         if line_number == 0 or line_number == (total_lines-1):
             continue
